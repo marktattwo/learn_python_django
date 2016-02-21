@@ -1,0 +1,5 @@
+fout = open('Text/hello.txt', 'w')
+fout.write('Hello, world!\n'*5)           
+fout.write('My name is Homer.\n')
+fout.write("What a beautiful day we're having.\n")
+fout.close()
